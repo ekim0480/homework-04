@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="row">
+            <div class="col-2">
+                <button type="button" class="btn btn-link" id="highScores">View High Scores</button>
+            </div>
+            <div class="col-8">
+                a
+            </div>
+            <div class="col-2">
+                <p class="text-right">
+                    <span>Timer:</span>
+                    <span id="timer">60</span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <div class="jumbotron bg-transparent" id="quizJumbo">
+                    <h1 class="display-5" id="jumboHeader">Code Quiz!</h1>
+                    <p class="lead" id="jumboLead">Click start to begin!</p>
+                    <hr class="my-4">
+                    <p id="jumboMain"></p>
+                    <a class="btn btn-primary btn-lg" id="startBtn" href="#" role="button">Start!</a>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>   
+    </div>
+
+    <!-- Link to javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
